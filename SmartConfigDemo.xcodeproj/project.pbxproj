@@ -15,6 +15,10 @@
 		5280EE2820ECBB3200FFFA98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280EE2720ECBB3200FFFA98 /* main.m */; };
 		5280EE3220ECBB3300FFFA98 /* SmartConfigDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280EE3120ECBB3300FFFA98 /* SmartConfigDemoTests.m */; };
 		5280EE3D20ECBB3300FFFA98 /* SmartConfigDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280EE3C20ECBB3300FFFA98 /* SmartConfigDemoUITests.m */; };
+		5280EE4C20ECBB9400FFFA98 /* SmartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280EE4B20ECBB9400FFFA98 /* SmartConfig.m */; };
+		5280EE4F20ECBBA900FFFA98 /* SmartConfig20.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280EE4E20ECBBA900FFFA98 /* SmartConfig20.m */; };
+		5280EE5220ECBBFE00FFFA98 /* SmartConfigEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280EE5120ECBBFE00FFFA98 /* SmartConfigEncode.m */; };
+		5280EE5520ECBC2900FFFA98 /* SmartConfigVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5280EE5420ECBC2900FFFA98 /* SmartConfigVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		5280EE3820ECBB3300FFFA98 /* SmartConfigDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartConfigDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5280EE3C20ECBB3300FFFA98 /* SmartConfigDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfigDemoUITests.m; sourceTree = "<group>"; };
 		5280EE3E20ECBB3300FFFA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5280EE4A20ECBB9400FFFA98 /* SmartConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartConfig.h; sourceTree = "<group>"; };
+		5280EE4B20ECBB9400FFFA98 /* SmartConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfig.m; sourceTree = "<group>"; };
+		5280EE4D20ECBBA900FFFA98 /* SmartConfig20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartConfig20.h; sourceTree = "<group>"; };
+		5280EE4E20ECBBA900FFFA98 /* SmartConfig20.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfig20.m; sourceTree = "<group>"; };
+		5280EE5020ECBBFE00FFFA98 /* SmartConfigEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartConfigEncode.h; sourceTree = "<group>"; };
+		5280EE5120ECBBFE00FFFA98 /* SmartConfigEncode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfigEncode.m; sourceTree = "<group>"; };
+		5280EE5320ECBC2900FFFA98 /* SmartConfigVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartConfigVersion.h; sourceTree = "<group>"; };
+		5280EE5420ECBC2900FFFA98 /* SmartConfigVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfigVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,14 @@
 			children = (
 				5280EE1820ECBB3200FFFA98 /* AppDelegate.h */,
 				5280EE1920ECBB3200FFFA98 /* AppDelegate.m */,
+				5280EE4A20ECBB9400FFFA98 /* SmartConfig.h */,
+				5280EE4B20ECBB9400FFFA98 /* SmartConfig.m */,
+				5280EE4D20ECBBA900FFFA98 /* SmartConfig20.h */,
+				5280EE4E20ECBBA900FFFA98 /* SmartConfig20.m */,
+				5280EE5020ECBBFE00FFFA98 /* SmartConfigEncode.h */,
+				5280EE5120ECBBFE00FFFA98 /* SmartConfigEncode.m */,
+				5280EE5320ECBC2900FFFA98 /* SmartConfigVersion.h */,
+				5280EE5420ECBC2900FFFA98 /* SmartConfigVersion.m */,
 				5280EE1B20ECBB3200FFFA98 /* ViewController.h */,
 				5280EE1C20ECBB3200FFFA98 /* ViewController.m */,
 				5280EE1E20ECBB3200FFFA98 /* Main.storyboard */,
@@ -265,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5280EE4F20ECBBA900FFFA98 /* SmartConfig20.m in Sources */,
 				5280EE1D20ECBB3200FFFA98 /* ViewController.m in Sources */,
+				5280EE4C20ECBB9400FFFA98 /* SmartConfig.m in Sources */,
+				5280EE5520ECBC2900FFFA98 /* SmartConfigVersion.m in Sources */,
 				5280EE2820ECBB3200FFFA98 /* main.m in Sources */,
 				5280EE1A20ECBB3200FFFA98 /* AppDelegate.m in Sources */,
+				5280EE5220ECBBFE00FFFA98 /* SmartConfigEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
