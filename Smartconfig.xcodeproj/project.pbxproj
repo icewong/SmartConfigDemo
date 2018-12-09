@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B68098979BFC1565CC8BA51 /* libPods-SmartconfigUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC97C656EFB70F3122DEE3A /* libPods-SmartconfigUITests.a */; };
+		5201C09920A34871007905DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C09820A34871007905DF /* AppDelegate.m */; };
+		5201C09C20A34871007905DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C09B20A34871007905DF /* ViewController.m */; };
+		5201C0A120A34871007905DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5201C0A020A34871007905DF /* Assets.xcassets */; };
+		5201C0A420A34871007905DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5201C0A220A34871007905DF /* LaunchScreen.storyboard */; };
+		5201C0A720A34871007905DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0A620A34871007905DF /* main.m */; };
+		5201C0B120A34871007905DF /* SmartconfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0B020A34871007905DF /* SmartconfigTests.m */; };
+		5201C0BC20A34871007905DF /* SmartconfigUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0BB20A34871007905DF /* SmartconfigUITests.m */; };
+		5201C0CB20A34EED007905DF /* SmartConfigGlobalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0CA20A34EED007905DF /* SmartConfigGlobalConfig.m */; };
+		5201C0CE20A34FAC007905DF /* SmartConfigDiscoverMDNS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0CD20A34FAC007905DF /* SmartConfigDiscoverMDNS.m */; };
+		5201C0E020A3CDF3007905DF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0DF20A3CDF2007905DF /* Reachability.m */; };
+		5201C0EA20A3CE8B007905DF /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0E320A3CE8B007905DF /* GCDAsyncUdpSocket.m */; };
+		5201C0EB20A3CE8B007905DF /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0E720A3CE8B007905DF /* SimplePing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5201C0EC20A3CE8B007905DF /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0E920A3CE8B007905DF /* SimplePingHelper.m */; };
+		5201C0F020A3CF40007905DF /* SimpleLinkNetwokUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201C0EF20A3CF40007905DF /* SimpleLinkNetwokUtil.m */; };
+		521C419A20AAD39C0042313F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 521C419820AAD39C0042313F /* MBProgressHUD.m */; };
+		52BF530020A53E03004CF3DF /* SmartconfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF52FF20A53E03004CF3DF /* SmartconfigManager.m */; };
+		52EDD50420A3DD28001CEF44 /* ScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDD50320A3DD28001CEF44 /* ScanResult.m */; };
+		52EDD50720A3DE9C001CEF44 /* SmartConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDD50620A3DE9C001CEF44 /* SmartConfigModel.m */; };
+		52EDD51B20A3F63B001CEF44 /* libFirstTimeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDD51A20A3F63B001CEF44 /* libFirstTimeConfig.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		623EEB431B8DE8530544B8CF /* libPods-SmartconfigTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B1FAF29610AEF60483CD69 /* libPods-SmartconfigTests.a */; };
+		A7396970D63EE3E1E3DE1492 /* libPods-Smartconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0A83CF3ECD4BBE2C88C8E6 /* libPods-Smartconfig.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5201C0AD20A34871007905DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5201C08C20A34871007905DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5201C09320A34871007905DF;
+			remoteInfo = Smartconfig;
+		};
+		5201C0B820A34871007905DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5201C08C20A34871007905DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5201C09320A34871007905DF;
+			remoteInfo = Smartconfig;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52EDD50E20A3F012001CEF44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5201C09420A34871007905DF /* Smartconfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartconfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5201C09720A34871007905DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5201C09820A34871007905DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5201C09A20A34871007905DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5201C09B20A34871007905DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5201C0A020A34871007905DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5201C0A320A34871007905DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5201C0A520A34871007905DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5201C0A620A34871007905DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5201C0AC20A34871007905DF /* SmartconfigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartconfigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5201C0B020A34871007905DF /* SmartconfigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartconfigTests.m; sourceTree = "<group>"; };
+		5201C0B220A34871007905DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5201C0B720A34871007905DF /* SmartconfigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartconfigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5201C0BB20A34871007905DF /* SmartconfigUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartconfigUITests.m; sourceTree = "<group>"; };
+		5201C0BD20A34871007905DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5201C0C920A34EED007905DF /* SmartConfigGlobalConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartConfigGlobalConfig.h; sourceTree = "<group>"; };
+		5201C0CA20A34EED007905DF /* SmartConfigGlobalConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfigGlobalConfig.m; sourceTree = "<group>"; };
+		5201C0CC20A34FAC007905DF /* SmartConfigDiscoverMDNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartConfigDiscoverMDNS.h; sourceTree = "<group>"; };
+		5201C0CD20A34FAC007905DF /* SmartConfigDiscoverMDNS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfigDiscoverMDNS.m; sourceTree = "<group>"; };
+		5201C0DE20A3CDF2007905DF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5201C0DF20A3CDF2007905DF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5201C0E220A3CE8B007905DF /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		5201C0E320A3CE8B007905DF /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		5201C0E520A3CE8B007905DF /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		5201C0E620A3CE8B007905DF /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		5201C0E720A3CE8B007905DF /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		5201C0E820A3CE8B007905DF /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		5201C0E920A3CE8B007905DF /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		5201C0EE20A3CF40007905DF /* SimpleLinkNetwokUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleLinkNetwokUtil.h; sourceTree = "<group>"; };
+		5201C0EF20A3CF40007905DF /* SimpleLinkNetwokUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLinkNetwokUtil.m; sourceTree = "<group>"; };
+		521C419820AAD39C0042313F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		521C419920AAD39C0042313F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		52BF52FE20A53E03004CF3DF /* SmartconfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartconfigManager.h; sourceTree = "<group>"; };
+		52BF52FF20A53E03004CF3DF /* SmartconfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartconfigManager.m; sourceTree = "<group>"; };
+		52EDD50120A3D721001CEF44 /* SmartconfigMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartconfigMacro.h; sourceTree = "<group>"; };
+		52EDD50220A3DD28001CEF44 /* ScanResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanResult.h; sourceTree = "<group>"; };
+		52EDD50320A3DD28001CEF44 /* ScanResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanResult.m; sourceTree = "<group>"; };
+		52EDD50520A3DE9C001CEF44 /* SmartConfigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartConfigModel.h; sourceTree = "<group>"; };
+		52EDD50620A3DE9C001CEF44 /* SmartConfigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartConfigModel.m; sourceTree = "<group>"; };
+		52EDD51320A3F5AB001CEF44 /* libFirstTimeConfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFirstTimeConfig.a; path = Smartconfig/Vendors/libFirstTimeConfig/libFirstTimeConfig.a; sourceTree = "<group>"; };
+		52EDD51720A3F63B001CEF44 /* FirstTimeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTimeConfig.h; sourceTree = "<group>"; };
+		52EDD51820A3F63B001CEF44 /* Ftc20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ftc20.h; sourceTree = "<group>"; };
+		52EDD51920A3F63B001CEF44 /* FtcEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtcEncode.h; sourceTree = "<group>"; };
+		52EDD51A20A3F63B001CEF44 /* libFirstTimeConfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFirstTimeConfig.a; sourceTree = "<group>"; };
+		52EDD51C20A3F73D001CEF44 /* NSString+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AESCrypt.h"; sourceTree = "<group>"; };
+		52EDD51D20A3F73D001CEF44 /* NSData+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypt.h"; sourceTree = "<group>"; };
+		52EDD51E20A3F73D001CEF44 /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		53B1FAF29610AEF60483CD69 /* libPods-SmartconfigTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartconfigTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC97C656EFB70F3122DEE3A /* libPods-SmartconfigUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartconfigUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7D6B90AD4CC6DD8D0F90ED /* Pods-SmartconfigTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartconfigTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartconfigTests/Pods-SmartconfigTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C042221E0C44F5C36232D61 /* Pods-Smartconfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartconfig.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smartconfig/Pods-Smartconfig.release.xcconfig"; sourceTree = "<group>"; };
+		927CB47753174E4D2A120A9B /* Pods-SmartconfigUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartconfigUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartconfigUITests/Pods-SmartconfigUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A16D2715C2C87FA7535C1DBB /* Pods-SmartconfigTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartconfigTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartconfigTests/Pods-SmartconfigTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE0A83CF3ECD4BBE2C88C8E6 /* libPods-Smartconfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Smartconfig.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE943D0272D75B882B1D78E7 /* Pods-Smartconfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartconfig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smartconfig/Pods-Smartconfig.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CF4465A252B6DC77DF4A36 /* Pods-SmartconfigUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartconfigUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartconfigUITests/Pods-SmartconfigUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5201C09120A34871007905DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDD51B20A3F63B001CEF44 /* libFirstTimeConfig.a in Frameworks */,
+				A7396970D63EE3E1E3DE1492 /* libPods-Smartconfig.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5201C0A920A34871007905DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623EEB431B8DE8530544B8CF /* libPods-SmartconfigTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5201C0B420A34871007905DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B68098979BFC1565CC8BA51 /* libPods-SmartconfigUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C29ADA3C1A03A8950CDFCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EDD51320A3F5AB001CEF44 /* libFirstTimeConfig.a */,
+				BE0A83CF3ECD4BBE2C88C8E6 /* libPods-Smartconfig.a */,
+				53B1FAF29610AEF60483CD69 /* libPods-SmartconfigTests.a */,
+				5AC97C656EFB70F3122DEE3A /* libPods-SmartconfigUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5201C08B20A34871007905DF = {
+			isa = PBXGroup;
+			children = (
+				5201C09620A34871007905DF /* Smartconfig */,
+				5201C0AF20A34871007905DF /* SmartconfigTests */,
+				5201C0BA20A34871007905DF /* SmartconfigUITests */,
+				5201C09520A34871007905DF /* Products */,
+				B80AFB9ECD411829B49CA723 /* Pods */,
+				40C29ADA3C1A03A8950CDFCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5201C09520A34871007905DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5201C09420A34871007905DF /* Smartconfig.app */,
+				5201C0AC20A34871007905DF /* SmartconfigTests.xctest */,
+				5201C0B720A34871007905DF /* SmartconfigUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5201C09620A34871007905DF /* Smartconfig */ = {
+			isa = PBXGroup;
+			children = (
+				5201C09720A34871007905DF /* AppDelegate.h */,
+				5201C09820A34871007905DF /* AppDelegate.m */,
+				5201C09A20A34871007905DF /* ViewController.h */,
+				5201C09B20A34871007905DF /* ViewController.m */,
+				521C419920AAD39C0042313F /* MBProgressHUD.h */,
+				521C419820AAD39C0042313F /* MBProgressHUD.m */,
+				5201C0A020A34871007905DF /* Assets.xcassets */,
+				5201C0A220A34871007905DF /* LaunchScreen.storyboard */,
+				5201C0A520A34871007905DF /* Info.plist */,
+				5201C0A620A34871007905DF /* main.m */,
+				52EDD50820A3DF46001CEF44 /* Smart */,
+			);
+			path = Smartconfig;
+			sourceTree = "<group>";
+		};
+		5201C0AF20A34871007905DF /* SmartconfigTests */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0B020A34871007905DF /* SmartconfigTests.m */,
+				5201C0B220A34871007905DF /* Info.plist */,
+			);
+			path = SmartconfigTests;
+			sourceTree = "<group>";
+		};
+		5201C0BA20A34871007905DF /* SmartconfigUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0BB20A34871007905DF /* SmartconfigUITests.m */,
+				5201C0BD20A34871007905DF /* Info.plist */,
+			);
+			path = SmartconfigUITests;
+			sourceTree = "<group>";
+		};
+		5201C0DC20A3CDF2007905DF /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				52EDD51520A3F63B001CEF44 /* libFirstTimeConfig */,
+				5201C0E120A3CE8B007905DF /* GCDAsyncUdp */,
+				5201C0E420A3CE8B007905DF /* Ping */,
+				5201C0DD20A3CDF2007905DF /* Reachability */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		5201C0DD20A3CDF2007905DF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0DE20A3CDF2007905DF /* Reachability.h */,
+				5201C0DF20A3CDF2007905DF /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5201C0E120A3CE8B007905DF /* GCDAsyncUdp */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0E220A3CE8B007905DF /* GCDAsyncUdpSocket.h */,
+				5201C0E320A3CE8B007905DF /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCDAsyncUdp;
+			sourceTree = "<group>";
+		};
+		5201C0E420A3CE8B007905DF /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0E520A3CE8B007905DF /* route.h */,
+				5201C0E620A3CE8B007905DF /* SimplePing.h */,
+				5201C0E720A3CE8B007905DF /* SimplePing.m */,
+				5201C0E820A3CE8B007905DF /* SimplePingHelper.h */,
+				5201C0E920A3CE8B007905DF /* SimplePingHelper.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		5201C0ED20A3CF24007905DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0EE20A3CF40007905DF /* SimpleLinkNetwokUtil.h */,
+				5201C0EF20A3CF40007905DF /* SimpleLinkNetwokUtil.m */,
+				52EDD50220A3DD28001CEF44 /* ScanResult.h */,
+				52EDD50320A3DD28001CEF44 /* ScanResult.m */,
+				52EDD50520A3DE9C001CEF44 /* SmartConfigModel.h */,
+				52EDD50620A3DE9C001CEF44 /* SmartConfigModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52EDD50820A3DF46001CEF44 /* Smart */ = {
+			isa = PBXGroup;
+			children = (
+				52BF52FE20A53E03004CF3DF /* SmartconfigManager.h */,
+				52BF52FF20A53E03004CF3DF /* SmartconfigManager.m */,
+				52EDD50120A3D721001CEF44 /* SmartconfigMacro.h */,
+				5201C0ED20A3CF24007905DF /* Model */,
+				5201C0DC20A3CDF2007905DF /* Vendors */,
+				52EDD50A20A3DF60001CEF44 /* GlobalConfig */,
+				52EDD50920A3DF51001CEF44 /* MDNS */,
+			);
+			path = Smart;
+			sourceTree = "<group>";
+		};
+		52EDD50920A3DF51001CEF44 /* MDNS */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0CC20A34FAC007905DF /* SmartConfigDiscoverMDNS.h */,
+				5201C0CD20A34FAC007905DF /* SmartConfigDiscoverMDNS.m */,
+			);
+			path = MDNS;
+			sourceTree = "<group>";
+		};
+		52EDD50A20A3DF60001CEF44 /* GlobalConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5201C0C920A34EED007905DF /* SmartConfigGlobalConfig.h */,
+				5201C0CA20A34EED007905DF /* SmartConfigGlobalConfig.m */,
+			);
+			path = GlobalConfig;
+			sourceTree = "<group>";
+		};
+		52EDD51520A3F63B001CEF44 /* libFirstTimeConfig */ = {
+			isa = PBXGroup;
+			children = (
+				52EDD51620A3F63B001CEF44 /* include */,
+				52EDD51A20A3F63B001CEF44 /* libFirstTimeConfig.a */,
+			);
+			path = libFirstTimeConfig;
+			sourceTree = "<group>";
+		};
+		52EDD51620A3F63B001CEF44 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				52EDD51E20A3F73D001CEF44 /* NetworkHelper.h */,
+				52EDD51D20A3F73D001CEF44 /* NSData+AESCrypt.h */,
+				52EDD51C20A3F73D001CEF44 /* NSString+AESCrypt.h */,
+				52EDD51720A3F63B001CEF44 /* FirstTimeConfig.h */,
+				52EDD51820A3F63B001CEF44 /* Ftc20.h */,
+				52EDD51920A3F63B001CEF44 /* FtcEncode.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B80AFB9ECD411829B49CA723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE943D0272D75B882B1D78E7 /* Pods-Smartconfig.debug.xcconfig */,
+				7C042221E0C44F5C36232D61 /* Pods-Smartconfig.release.xcconfig */,
+				5F7D6B90AD4CC6DD8D0F90ED /* Pods-SmartconfigTests.debug.xcconfig */,
+				A16D2715C2C87FA7535C1DBB /* Pods-SmartconfigTests.release.xcconfig */,
+				F3CF4465A252B6DC77DF4A36 /* Pods-SmartconfigUITests.debug.xcconfig */,
+				927CB47753174E4D2A120A9B /* Pods-SmartconfigUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5201C09320A34871007905DF /* Smartconfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5201C0C020A34871007905DF /* Build configuration list for PBXNativeTarget "Smartconfig" */;
+			buildPhases = (
+				3F2E433FCD92038F33F00D21 /* [CP] Check Pods Manifest.lock */,
+				5201C09020A34871007905DF /* Sources */,
+				5201C09120A34871007905DF /* Frameworks */,
+				5201C09220A34871007905DF /* Resources */,
+				79BAEBF4EE35B632F64D7CAB /* [CP] Embed Pods Frameworks */,
+				C462EBFC421CB5B885E5A238 /* [CP] Copy Pods Resources */,
+				52EDD50E20A3F012001CEF44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartconfig;
+			productName = Smartconfig;
+			productReference = 5201C09420A34871007905DF /* Smartconfig.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5201C0AB20A34871007905DF /* SmartconfigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5201C0C320A34871007905DF /* Build configuration list for PBXNativeTarget "SmartconfigTests" */;
+			buildPhases = (
+				D7BB0E875ADBE228F6872ADF /* [CP] Check Pods Manifest.lock */,
+				5201C0A820A34871007905DF /* Sources */,
+				5201C0A920A34871007905DF /* Frameworks */,
+				5201C0AA20A34871007905DF /* Resources */,
+				9E571CFBC63A6F88E38F9D6B /* [CP] Embed Pods Frameworks */,
+				AF0E557597C6C87D60A48831 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5201C0AE20A34871007905DF /* PBXTargetDependency */,
+			);
+			name = SmartconfigTests;
+			productName = SmartconfigTests;
+			productReference = 5201C0AC20A34871007905DF /* SmartconfigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5201C0B620A34871007905DF /* SmartconfigUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5201C0C620A34871007905DF /* Build configuration list for PBXNativeTarget "SmartconfigUITests" */;
+			buildPhases = (
+				9F080BD0A47E33FB0FBD08BB /* [CP] Check Pods Manifest.lock */,
+				5201C0B320A34871007905DF /* Sources */,
+				5201C0B420A34871007905DF /* Frameworks */,
+				5201C0B520A34871007905DF /* Resources */,
+				8EFB4980A2FDF644BE26F43D /* [CP] Embed Pods Frameworks */,
+				5DCE85BA43CB44A435FFF99E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5201C0B920A34871007905DF /* PBXTargetDependency */,
+			);
+			name = SmartconfigUITests;
+			productName = SmartconfigUITests;
+			productReference = 5201C0B720A34871007905DF /* SmartconfigUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5201C08C20A34871007905DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = WangBing;
+				TargetAttributes = {
+					5201C09320A34871007905DF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5201C0AB20A34871007905DF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5201C09320A34871007905DF;
+					};
+					5201C0B620A34871007905DF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5201C09320A34871007905DF;
+					};
+				};
+			};
+			buildConfigurationList = 5201C08F20A34871007905DF /* Build configuration list for PBXProject "Smartconfig" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5201C08B20A34871007905DF;
+			productRefGroup = 5201C09520A34871007905DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5201C09320A34871007905DF /* Smartconfig */,
+				5201C0AB20A34871007905DF /* SmartconfigTests */,
+				5201C0B620A34871007905DF /* SmartconfigUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5201C09220A34871007905DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5201C0A420A34871007905DF /* LaunchScreen.storyboard in Resources */,
+				5201C0A120A34871007905DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5201C0AA20A34871007905DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5201C0B520A34871007905DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F2E433FCD92038F33F00D21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smartconfig-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCE85BA43CB44A435FFF99E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartconfigUITests/Pods-SmartconfigUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BAEBF4EE35B632F64D7CAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smartconfig/Pods-Smartconfig-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFB4980A2FDF644BE26F43D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartconfigUITests/Pods-SmartconfigUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E571CFBC63A6F88E38F9D6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartconfigTests/Pods-SmartconfigTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F080BD0A47E33FB0FBD08BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartconfigUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0E557597C6C87D60A48831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartconfigTests/Pods-SmartconfigTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C462EBFC421CB5B885E5A238 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smartconfig/Pods-Smartconfig-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BB0E875ADBE228F6872ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartconfigTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5201C09020A34871007905DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5201C0CB20A34EED007905DF /* SmartConfigGlobalConfig.m in Sources */,
+				52EDD50420A3DD28001CEF44 /* ScanResult.m in Sources */,
+				5201C09C20A34871007905DF /* ViewController.m in Sources */,
+				5201C0A720A34871007905DF /* main.m in Sources */,
+				5201C0CE20A34FAC007905DF /* SmartConfigDiscoverMDNS.m in Sources */,
+				5201C0EA20A3CE8B007905DF /* GCDAsyncUdpSocket.m in Sources */,
+				52BF530020A53E03004CF3DF /* SmartconfigManager.m in Sources */,
+				5201C0E020A3CDF3007905DF /* Reachability.m in Sources */,
+				5201C09920A34871007905DF /* AppDelegate.m in Sources */,
+				5201C0EB20A3CE8B007905DF /* SimplePing.m in Sources */,
+				5201C0EC20A3CE8B007905DF /* SimplePingHelper.m in Sources */,
+				5201C0F020A3CF40007905DF /* SimpleLinkNetwokUtil.m in Sources */,
+				52EDD50720A3DE9C001CEF44 /* SmartConfigModel.m in Sources */,
+				521C419A20AAD39C0042313F /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5201C0A820A34871007905DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5201C0B120A34871007905DF /* SmartconfigTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5201C0B320A34871007905DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5201C0BC20A34871007905DF /* SmartconfigUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5201C0AE20A34871007905DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5201C09320A34871007905DF /* Smartconfig */;
+			targetProxy = 5201C0AD20A34871007905DF /* PBXContainerItemProxy */;
+		};
+		5201C0B920A34871007905DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5201C09320A34871007905DF /* Smartconfig */;
+			targetProxy = 5201C0B820A34871007905DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5201C0A220A34871007905DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5201C0A320A34871007905DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5201C0BE20A34871007905DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5201C0BF20A34871007905DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5201C0C120A34871007905DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE943D0272D75B882B1D78E7 /* Pods-Smartconfig.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D49NLC4WA;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
+				INFOPLIST_FILE = Smartconfig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smartconfig/Smart/Vendors",
+					"$(PROJECT_DIR)/Smartconfig/Smart/Vendors/libFirstTimeConfig",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.creative-apps.hummingCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		5201C0C220A34871007905DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C042221E0C44F5C36232D61 /* Pods-Smartconfig.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D49NLC4WA;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
+				INFOPLIST_FILE = Smartconfig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Smartconfig/Smart/Vendors",
+					"$(PROJECT_DIR)/Smartconfig/Smart/Vendors/libFirstTimeConfig",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.creative-apps.hummingCamera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		5201C0C420A34871007905DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7D6B90AD4CC6DD8D0F90ED /* Pods-SmartconfigTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D49NLC4WA;
+				INFOPLIST_FILE = SmartconfigTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyLight.SmartconfigTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartconfig.app/Smartconfig";
+			};
+			name = Debug;
+		};
+		5201C0C520A34871007905DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16D2715C2C87FA7535C1DBB /* Pods-SmartconfigTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D49NLC4WA;
+				INFOPLIST_FILE = SmartconfigTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyLight.SmartconfigTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartconfig.app/Smartconfig";
+			};
+			name = Release;
+		};
+		5201C0C720A34871007905DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CF4465A252B6DC77DF4A36 /* Pods-SmartconfigUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D49NLC4WA;
+				INFOPLIST_FILE = SmartconfigUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyLight.SmartconfigUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smartconfig;
+			};
+			name = Debug;
+		};
+		5201C0C820A34871007905DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927CB47753174E4D2A120A9B /* Pods-SmartconfigUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D49NLC4WA;
+				INFOPLIST_FILE = SmartconfigUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyLight.SmartconfigUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smartconfig;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5201C08F20A34871007905DF /* Build configuration list for PBXProject "Smartconfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5201C0BE20A34871007905DF /* Debug */,
+				5201C0BF20A34871007905DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5201C0C020A34871007905DF /* Build configuration list for PBXNativeTarget "Smartconfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5201C0C120A34871007905DF /* Debug */,
+				5201C0C220A34871007905DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5201C0C320A34871007905DF /* Build configuration list for PBXNativeTarget "SmartconfigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5201C0C420A34871007905DF /* Debug */,
+				5201C0C520A34871007905DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5201C0C620A34871007905DF /* Build configuration list for PBXNativeTarget "SmartconfigUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5201C0C720A34871007905DF /* Debug */,
+				5201C0C820A34871007905DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5201C08C20A34871007905DF /* Project object */;
+}
